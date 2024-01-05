@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/coscom-ui/solid-icons.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/coscom-ui"
+  },
   "keywords": ["Icon"],
   "author": "Sinisa Botic",
   "license": "MIT",
