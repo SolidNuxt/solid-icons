@@ -1,0 +1,13 @@
+{
+  "name": "@coscom-ui/solid-icons",
+  "version": "0.8.2",
+  "description": "Solid Icons is the icon library made by IconMoon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coscom-ui/solid-icons.git"
+  },
+  "keywords": ["Icon"],
+  "author": "Sinisa Botic",
+  "license": "MIT",
+  "homepage": "https://github.com/coscom-ui/solid-icons#readme"
+}
