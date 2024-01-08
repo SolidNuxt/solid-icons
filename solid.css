@@ -10,19 +10,53 @@
   font-display: block;
 }
 
-[class^="el-"], [class*=" el-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'solidicons' !important;
-  speak: never;
+.cs {
+  font-family: 'solidicons';
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
-  /* Better Font Rendering =========== */
+  display: inline-block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.el:before {
+  --webkit-backface-visibility:hidden;
+  backface-visibility: hidden;
+}
+
+.el-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.el-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+  }
 }
 
 .el-eraser:before {
