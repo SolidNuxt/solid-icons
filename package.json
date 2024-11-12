@@ -1,13 +1,16 @@
 {
-  "name": "@coscom-ui/solid-icons",
-  "version": "0.0.1",
-  "description": "Solid Icons is the icon library made by IconMoon",
+  "name": "@coscom/coscom-icons",
+  "version": "0.0.2",
+  "description": "Coscom Icons is the icon library made by IconMoon specially internal use. To start with use, open *demo.html* to see a list of all the glyphs in your font along with their codes/ligatures.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coscom-ui/solid-icons.git"
+    "url": "git+https://github.com/coscom/coscom-icons.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": ["Icon"],
   "author": "Sinisa Botic",
   "license": "MIT",
-  "homepage": "https://github.com/coscom-ui/solid-icons#readme"
+  "homepage": "https://github.com/coscom/coscom-icons#readme"
 }
